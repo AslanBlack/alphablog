@@ -1,2 +1,73 @@
+$navbar-default-bg: #2E5171;
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+ .jumbotron, .navbar{
+  border-radius:0!important;
+}
+
+body, html{
+  margin:0;
+  padding:0;
+}
+
+#logo{
+  font-weight: bold;
+  font-size: 1.7em;
+  text-shadow: 1px 0 0 black, 1px 0 0 black, 1px 0 0 black, 1px 0 0 black;
+  text-transform:uppercase;
+}
+
+.center{
+  text-align: center;
+} 
+
+.navbar, .container-fluid{
+  margin:0;
+  padding:0;
+}
+
+.jumbotron{
+  background-image: asset-url('fleuveville.jpg');
+  background-size:cover;
+  background-position:center;
+  height:550px;
+}
+
+#blog_title{
+  color:white;
+  margin-top:220px;
+  text-shadow: 1px 0 0 black, 1px 0 0 black, 1px 0 0 black, 1px 0 0 black;
+}
+
+#footer{
+  background-color:#2E5171;
+  color:black;
+  padding:1%;
+}
+
+small{
+  float:left;
+  margin-left:5%;
+}
+
+#footer ul {
+  float:right;
+  margin-right:5%;
+}
+
+#footer li {
+  list-style:none;
+}
+
+#footer a{
+  text-decoration:none;
+}
+
+#footer a:hover{
+  color:white;
+  
+}
+
