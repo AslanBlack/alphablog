@@ -42,11 +42,12 @@ body, html{
   text-shadow: 1px 0 0 black, 1px 0 0 black, 1px 0 0 black, 1px 0 0 black;
 }
 
-#footer{
-  background-color:#2E5171;
+.footer{
+  background-color:white;
   color:black;
   padding:1%;
   margin-top:55px;
+  border-top:1px solid #eaeaea;
 }
 
 small{
@@ -54,12 +55,12 @@ small{
   margin-left:5%;
 }
 
-#footer ul {
+.footer ul {
   float:right;
   margin-right:5%;
 }
 
-#footer li {
+.footer li {
   list-style:none;
 }
 

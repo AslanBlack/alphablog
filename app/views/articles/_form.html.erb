@@ -1,15 +1,6 @@
 <div class="container">
-
-<div class="alert alert-danger">
-<% if @article.errors.any? %>
-<h2>The following errors prenvented the article from getting created</h2>
-<ul>
-  <% @article.errors.full_messages.each do |msg| %>  
-  <li><%= msg %></li>
-  <% end %>
-</ul>
-<% end %>
-</div>
+  
+<%= render 'shared/errors', obj: @article %>
 
 <div class="row">
   <div class=col-sx-12>
