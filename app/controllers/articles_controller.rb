@@ -16,6 +16,7 @@ class ArticlesController < ApplicationController
   def create
     
     @article = Article.new(article_params)
+    @article.user = User.first
     if @article.save
       flash[:success] = "Your article was successfully created"
       redirect_to article_path(@article)
@@ -53,8 +54,6 @@ class ArticlesController < ApplicationController
     def article_params
       params.require(:article).permit(:title, :description)
     end 
-  
-
 
 end  
 
