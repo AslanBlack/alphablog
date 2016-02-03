@@ -17,7 +17,7 @@ body, html{
   font-weight: bold;
   font-size: 1.7em;
   text-shadow: 1px 0 0 black, 1px 0 0 black, 1px 0 0 black, 1px 0 0 black;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
 
 .center{
@@ -108,5 +108,24 @@ border-top: 1px solid #eaeaea;
  padding-top: 15px; 
  padding-bottom: 15px; 
 }
+
+.listing{
+  list-style:none;
+  padding-left:0;
+  
+}
+
+.profile_picture{
+  float:left; 
+  display:inline-block;
+  
+}
+
+.profile_info {
+  float:left;
+  margin:25px;
+  display:inline-block;
+}
+
 
  
