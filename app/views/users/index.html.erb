@@ -1,5 +1,5 @@
 <h1 align="center"> Alpha Bloggers </h1>
-
+<%= render 'articles/paginate' %> 
 <% @users.each do |user| %> <!--variable name of your choice-->
   <ul class = "listing">
    <div class="row">
@@ -18,3 +18,4 @@
   </ul>    
 
 <% end %>
+<%= render 'articles/paginate' %>
