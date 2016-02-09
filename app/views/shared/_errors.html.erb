@@ -2,11 +2,11 @@
   <div class="row">
     <div class="alert alert-danger col-xs-8 col-xs-offset-2">
     
-    <h3>
+    <h3 class="error-title">
       <%= pluralize(obj.errors.count, "error") %> prenvented the article from being saved
         
      </h3>
-    <ul>
+    <ul class="error-body">
       <% obj.errors.full_messages.each do |msg| %>  
       <li><%= msg %></li>
       <% end %>
